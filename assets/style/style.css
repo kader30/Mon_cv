@@ -1,0 +1,312 @@
+ /* cette ligne permet d'importer le font lato */
+ @font-face {
+     font-family: "lato";
+     src: url(../fonts/Lato/Lato-Regular.woff);
+ }
+
+ /* cette ligne permet d'importer le font Releway*/
+ @font-face {
+     font-family: "Releway";
+     src: url(../fonts/Raleway/Raleway-Regular.woff);
+ }
+
+ /*la structure de la page web*/
+
+ body {
+     max-width: 1167px;
+     background-color: rgb(139, 140, 141);
+     margin: auto;
+     color: #ffffff;
+
+ }
+
+ main {
+     display: flex;
+     flex-direction: row;
+     font-family: "Releway";
+ }
+
+ /******************** Style Header *************************************************************************************************************************************/
+
+ header {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     background-color: #17abb3;
+     height: 250px;
+     text-align: center;
+
+ }
+
+ address {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     position: relative;
+     width: 280px;
+     margin-left: 40px;
+
+ }
+
+ address .information {
+
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     width: 130px;
+     font-size: 11px;
+     font-style: normal;
+
+ }
+
+ address img {
+     width: 12px;
+     height: 12px;
+     border-radius: unset;
+     filter: invert(100);
+     background: unset;
+     border: unset;
+     padding-right: 3px;
+     margin-top: 0px;
+     padding-top: 3px;
+     margin: unset;
+
+ }
+
+ address p {
+     position: relative;
+
+     text-align: center;
+ }
+
+ img[alt="photo_profil"]:hover {
+     cursor: zoom-in;
+ }
+
+ img {
+     position: relative;
+     width: 170px;
+     height: 170px;
+     border: 2px solid white;
+     border-radius: 50%;
+     padding: 2px;
+     background: #ffffff;
+
+     margin-top: 38px;
+     margin-left: 100px;
+
+
+ }
+
+ header .information {
+     margin: auto;
+ }
+
+
+
+ /***************************** Style de la colonne sur le coté *********************************************************************************************/
+ aside {
+
+     width: 30%;
+     height: 900px;
+     background-color: #e3e3e3;
+     color: black;
+     padding: 20px 3% 0 3%;
+
+ }
+
+
+ ul {
+     padding-left: 20px;
+ }
+
+
+ ul li {
+     list-style-type: square;
+     padding-left: 5px;
+
+
+
+ }
+
+ header,
+ h1,
+ h2,
+ h3 {
+     font-family: "lato";
+ }
+
+ h3 {
+     color: #17abb3;
+ }
+
+ ul li::marker {
+     color: #17abb3;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+
+ }
+
+ .container p {
+     font-weight: bolder;
+ }
+
+ p span {
+     font-weight: normal;
+ }
+
+ a {
+     color: inherit;
+     text-decoration: none;
+
+ }
+
+ .stars {
+     align-items: end;
+
+     justify-content: center;
+     text-align: end;
+
+
+     gap: 4px;
+     margin-bottom: 10px;
+ }
+
+
+ .star {
+     font-size: 25px;
+     color: #17abb3;
+     background-clip: content-box;
+
+     justify-self: center;
+     border: none;
+     background-color: unset;
+
+
+
+ }
+
+ /*********************** Style de corps de Cv **********************************************************************/
+ section {
+
+     width: 70%;
+     height: 900px;
+     background-color: #f5f5f5;
+     color: black;
+     padding: 20px 8% 0 8%;
+
+
+ }
+
+ article {
+     text-indent: 30px;
+     text-align: justify;
+     font-size: 16px;
+ }
+
+
+
+ section p {
+     align-items: start;
+     text-indent: unset;
+     font-weight: bold;
+     font-size: medium;
+     width: 300px;
+
+
+ }
+
+ section .container {
+
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 3px;
+ }
+
+ .formation {
+     display: block;
+
+ }
+
+ .lieu_formation {
+     font-size: 14px;
+     font-style: italic;
+     margin: 0;
+     margin-left: 5px;
+     font-weight: normal;
+     opacity: 0.7;
+ }
+
+
+ time {
+     margin-top: 5px;
+     color: #17abb3;
+     font-size: 13px;
+     font-weight: 500;
+     text-transform: capitalize;
+ }
+
+ p {
+     margin: 5px;
+
+ }
+
+ section .container:hover {
+
+     background: #e3e3e3;
+     border-left: 4px solid #17abb3;
+     height: fit-content;
+ }
+
+ /* **********Style de footer *********************************************************************************************************************************/
+ footer {
+
+
+     display: flex;
+     flex-direction: column;
+     height: 70px;
+     background: #17abb3;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     justify-items: center;
+     font-family: "Relaway";
+     color: #e3e3e3;
+ }
+
+ .social_network {
+     display: flex;
+     flex-direction: row;
+ }
+
+ footer a img {
+
+     margin: 10px;
+
+     border: unset;
+     background: unset;
+
+     filter: invert(100);
+     border-radius: unset;
+     padding: unset;
+     width: 25px;
+     height: 25px
+ }
+
+ footer a:hover {
+     opacity: 0.7;
+ }
+
+ small {
+     margin-bottom: 10px;
+     font-family: "Releway";
+     font-style: italic;
+ }
+
+ /*********************************************************************************************************************************************************/
